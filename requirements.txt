@@ -84,15 +84,6 @@ flatbuffers==1.12
 folium==0.8.3
 future==0.16.0
 gast==0.3.3
-GDAL==2.2.2
-gdown==3.6.4
-gensim==3.6.0
-geographiclib==1.50
-geopy==1.17.0
-gin-config==0.4.0
-gitdb==4.0.5
-GitPython==3.1.11
-glob2==0.7
 google==2.0.3
 google-api-core==1.16.0
 google-api-python-client==1.7.12
