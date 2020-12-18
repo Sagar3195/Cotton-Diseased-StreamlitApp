@@ -57,10 +57,9 @@ Original file is located at
 # 
 #
 
-import tensorflow as tf
-tf.__version__
 
-!ngrok authtoken 1lWUdS0U3Wx3MIr4kaaXKD5EXA0_5W93S5b4a7cUSx1bD8wdp
+
+#!ngrok authtoken XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
@@ -68,52 +67,8 @@ tf.__version__
 
 from pyngrok import ngrok
 public_url = ngrok.connect(port = '8501')
-
 public_url
 
 !cat /content/nohup.out
 
-ngrok.kill()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ngrok.kill()
